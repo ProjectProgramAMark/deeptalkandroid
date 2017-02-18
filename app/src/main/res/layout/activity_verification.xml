@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="markmoussa.me.deeptalkandroid.VerificatinActivity">
+    tools:context="markmoussa.me.deeptalkandroid.VerificationActivity">
 
     <TextView
         android:text="Verification code has been sent! Once you get the code, type it in the box below."
