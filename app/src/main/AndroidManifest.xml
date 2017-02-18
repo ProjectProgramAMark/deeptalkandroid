@@ -17,7 +17,9 @@
         </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".ChoiceActivity" />
-        <activity android:name=".VerificationActivity"></activity>
+        <activity android:name=".VerificationActivity" />
+        <activity android:name=".LookingForCallerActivity" />
+        <activity android:name=".CallerFoundActivity"></activity>
     </application>
 
 </manifest>
