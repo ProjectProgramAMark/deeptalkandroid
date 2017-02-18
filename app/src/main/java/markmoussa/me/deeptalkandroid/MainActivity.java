@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button registerButton = (Button) findViewById(R.id.registerButton);
-        registerButton.setOnClickListener(new View.OnClickListener() {
+        Button registerButtonMain = (Button) findViewById(R.id.registerButtonMain);
+        registerButtonMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Do some shit
