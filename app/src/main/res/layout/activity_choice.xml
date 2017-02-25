@@ -14,17 +14,19 @@
         android:text="Help"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/helpButton"
+        android:layout_marginStart="36dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="84dp"
-        android:id="@+id/helpButton" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="193dp" />
 
     <Button
         android:text="Be Helped"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/helpButton"
-        android:layout_alignEnd="@+id/helpButton"
-        android:layout_marginTop="69dp"
-        android:id="@+id/beHelpedButton" />
+        android:id="@+id/beHelpedButton"
+        android:layout_marginEnd="27dp"
+        android:layout_alignBaseline="@+id/helpButton"
+        android:layout_alignBottom="@+id/helpButton"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
